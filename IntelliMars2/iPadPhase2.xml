@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="iPadPhase2">
+  <test thread-count="5" name="TeiPadPhase2st">
+  <parameter name="MFIRM" value="MFIRM"></parameter>
+  <parameter name="MOFFICE" value="MOFFICE"></parameter>
+  <parameter name="MREP" value="MREP"></parameter>
+  <parameter name="app" value="/Users/apple/Desktop/IntelliMARS_6310.ipa"></parameter>
+  <parameter name="deviceName" value="nagendrab's iPad"></parameter>
+  <parameter name="udid" value="2f7d43e33874b5accbb372cdfc4704534fed1dfe"></parameter>
+  <parameter name="platformVersion" value="13.6.1"></parameter>
+  <parameter name="xcodeOrgId" value="X45K6MGNL2"></parameter>
+  <parameter name="userid" value="SFS003"></parameter>
+  <parameter name="password" value="mars2"></parameter>
+  <parameter name="url" value="https://imarscrmqa.phxa.com"></parameter>
+  <parameter name="Mreportname" value=""></parameter>
+  <parameter name="mproduct" value=""></parameter>
+  <parameter name="EISFIRM" value=""></parameter>
+  <parameter name="EISOFFICE" value=""></parameter>
+  <parameter name="EISREP" value=""></parameter>
+  <parameter name="EISPRODUCT" value=""></parameter>
+  <parameter name="EISPRODGROUP" value=""></parameter>
+  <parameter name="EISPRODUCTTYPE" value=""></parameter>
+  <parameter name="EISCHANNEL" value=""></parameter>
+  <parameter name="EISTERRITORY" value=""></parameter>
+  <parameter name="EISWHOLESALER" value=""></parameter>
+  <parameter name="ETRFIRM" value=""></parameter>
+  <parameter name="ETROFFICE" value=""></parameter>
+  <parameter name="ETRREP" value=""></parameter>
+  <parameter name="ETRPROD" value=""></parameter>
+  <parameter name="ETRPRODGRP" value=""></parameter>
+  <parameter name="ETRPRODTYP" value=""></parameter>
+  <parameter name="ETRCHANNEL" value=""></parameter>
+  <parameter name="ETRTERR" value=""></parameter>
+  <parameter name="ETRWHOLESALER" value=""></parameter>
+  <parameter name="ETRASSETCLASS" value=""></parameter>
+  <parameter name="ETRASSETSCLASS" value=""></parameter>
+  <parameter name="ETRPLATFORMCODE" value=""></parameter>
+  <parameter name="MFIRM" value=""></parameter>
+  <parameter name="MOFFICE" value=""></parameter>
+  <parameter name="MREP" value=""></parameter>
+  
+    <classes>
+      <class name="intellimars.iPadPhase2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

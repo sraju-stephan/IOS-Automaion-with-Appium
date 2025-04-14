@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="intellimars.IntelliMARSiPhone">
+	<test name="IntelliMARSiPhone">
+		<parameter name="app" value="/Users/Mars/Desktop/IntelliMARS_6310.ipa"></parameter>
+		<parameter name="deviceName" value="iphone"></parameter>
+		<parameter name="udid" value="50566ae7a20151b7a5fbbece43d508c376ee2d4f"></parameter>
+		<parameter name="platformVersion" value="12.4"></parameter>
+		<parameter name="xcodeOrgId" value="X45K6MGNL2"></parameter>
+		<parameter name="XcodeSigningId" value="iPhone Developer"></parameter>
+		<parameter name="admurl" value="https://imarsetfqa.phxa.com"></parameter>
+		<parameter name="admnusrid" value="567829"></parameter>
+		<parameter name="admnpswd" value="mars2"></parameter>
+		<parameter name="CRMUSR" value="SFS003"></parameter>
+		<parameter name="CRMPSD" value="mars2"></parameter>
+		<parameter name="CRMURL" value="https://imarscrmqa.phxa.com"></parameter>
+		<parameter name="WHLUSR" value="558218"></parameter>
+		<parameter name="WHLPSD" value="mars1"></parameter>
+		<parameter name="WHLURL" value="https://imarsetfqa.phxa.com"></parameter>
+		<parameter name="RLastName" value="Toto"></parameter>
+		<parameter name="RFirstName" value="Albert"></parameter>
+		<parameter name="RFirmName" value=""></parameter>
+		<parameter name="ROfficeName" value=""></parameter>
+		<parameter name="RCityName" value=""></parameter>
+		<parameter name="RStateName" value=""></parameter>
+		<parameter name="RZipCode" value=""></parameter>
+		<parameter name="RFullName" value="Albert Toto"></parameter>
+		<parameter name="ProductCode" value="SSCQX"></parameter>
+		<parameter name="ProductTitle" value="State Street "></parameter>
+		<parameter name="ProductType" value="Mutual Fund"></parameter>
+		<parameter name="ProductGroup" value="Target Retirement Fund 2040"></parameter>
+		<parameter name="TLastName" value="Sowell"></parameter>
+		<parameter name="TFirstName" value="Adam"></parameter>
+		<parameter name="TFirmName" value=""></parameter>
+		<parameter name="TOfficeName" value=""></parameter>
+		<parameter name="TCityName" value=""></parameter>
+		<parameter name="TStateName" value=""></parameter>
+		<parameter name="TZipCode" value=""></parameter>
+		<parameter name="OFirmName" value="Mml Investors Services"></parameter>
+		<parameter name="OfficeName" value="Mml Investors Services"></parameter>
+		<parameter name="OCityName" value=""></parameter>
+		<parameter name="OStateName" value=""></parameter>
+		<parameter name="OZipCode" value=""></parameter>
+		<parameter name="FirmName" value="Mml Investors Services"></parameter>
+		<parameter name="FOfficeName" value="Mml Investors Services"></parameter>
+		<parameter name="FCityName" value=""></parameter>
+		<parameter name="FStateName" value=""></parameter>
+		<parameter name="BULastName" value=""></parameter>
+		<parameter name="BUFirstName" value="Capstone"></parameter>
+		<parameter name="BUFirmName" value="Colorado"></parameter>
+		<parameter name="BUOfficeName" value=""></parameter>
+		<parameter name="BUCityName" value=""></parameter>
+		<parameter name="BUStateName" value=""></parameter>
+		<parameter name="BUZipCode" value=""></parameter>
+		<parameter name="CRMRLastName" value="Aanes"></parameter>
+		<parameter name="CRMRFirstName" value="Eric"></parameter>
+		<parameter name="CRMTLastName" value="Kim"></parameter>
+		<parameter name="CRMTFirstName" value="Anna"></parameter>
+		<parameter name="CRMOFirmName" value="Mml Investors Services"></parameter>
+		<parameter name="CRMOfficeName" value="Mml Investors Services"></parameter>
+		<parameter name="CRMFirmName" value="Mml Investors Services"></parameter>
+		<parameter name="CRMFOfficeName" value="Mml Investors Services"></parameter>
+		
+		<classes>
+			<class name="intellimars.IntelliMARSiPhone" />
+		</classes>
+	</test>
+</suite> 
